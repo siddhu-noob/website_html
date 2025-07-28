@@ -8,4 +8,4 @@ COPY . /usr/share/nginx/html
 EXPOSE 80
 
 #Starting nginx server in the background
-CMD [ "nginx", "=g", "daemon off;" ]
+CMD [ "nginx", "-g", "daemon off;" ]
